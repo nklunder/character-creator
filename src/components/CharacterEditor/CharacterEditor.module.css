@@ -3,10 +3,23 @@
   padding-bottom: 64px;
 }
 
+.characterEditor::before {
+  content: "";
+  position: fixed;
+  background-color: hsl(195deg, 20%, 86%);
+  width: 100%;
+  top: 60vh;
+  left: 0;
+  height: 40vh;
+  z-index: -1;
+}
+
 .maxWidthWrapper {
+  max-width: 1024px;
 }
 
 .header {
+  width: 65%;
   padding-bottom: 64px;
 }
 
@@ -24,7 +37,13 @@
 }
 
 .characterWrapper {
+  min-height: 500px;
+  position: fixed;
+  width: 900px;
+  top: 0;
+  right: 0;
 }
 
 .controlColumn {
+  width: 50%;
 }
