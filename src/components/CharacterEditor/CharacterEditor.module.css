@@ -3,18 +3,17 @@
   padding-bottom: 64px;
 }
 
-.characterEditor::before {
-  content: "";
+.perspectiveEffedt {
   position: fixed;
   background-color: hsl(195deg, 20%, 86%);
   width: 100%;
   top: 60vh;
   left: 0;
   height: 40vh;
-  z-index: -1;
 }
 
 .maxWidthWrapper {
+  position: relative;
   max-width: 1024px;
 }
 
@@ -39,9 +38,11 @@
 .characterWrapper {
   min-height: 500px;
   position: fixed;
-  width: 900px;
-  top: 0;
+  top: 80px;
+  left: 50%;
+  margin: 0 16px;
   right: 0;
+  bottom: 5%;
 }
 
 .controlColumn {
